@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-   <div>
-        dashbord
+   <div className="px-3">
+      dashboard
    </div>
   )
 }
