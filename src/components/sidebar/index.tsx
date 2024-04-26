@@ -105,7 +105,7 @@ const SideBar = () => {
                         {item.dropdown?.map((subItem) => {
                           const activeSubPage = subItem.url !== '/' && pathname.includes(subItem.url) && styles.sub_menu_active
                           return (
-                            <li>
+                            <li className='list-unstyled'>
                               <Link href={subItem.url} key={subItem.key} className={`text-decoration-none ${styles.sub_menu_deactive}  ${styles.user_dropdown}
                               ${activeSubPage}`}>
                                 <div className={`${styles.dropdown_item}`}>{subItem.name}</div>
