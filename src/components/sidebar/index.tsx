@@ -1,22 +1,22 @@
 'use client'
-import React, { useState } from 'react';
-import styles from './styles.module.css';
+import React, { useState } from 'react'
+import styles from './styles.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
-import assessItImg from '../../../public/images/sidebar/assessIt_icon_full.svg';
-import { TbReportAnalytics } from 'react-icons/tb';
-import { RiBarChartBoxLine, RiDashboardLine } from 'react-icons/ri';
-import { FaRegUser, FaRegUserCircle } from 'react-icons/fa';
-import { Menu, MenuItem } from "@mui/material";
+import assessItImg from '../../../public/images/sidebar/assessIt_icon_full.svg'
+import { TbReportAnalytics } from 'react-icons/tb'
+import { RiBarChartBoxLine, RiDashboardLine } from 'react-icons/ri'
+import { FaRegUser, FaRegUserCircle } from 'react-icons/fa'
+import { Menu, MenuItem } from '@mui/material'
 import { CgFileDocument, CgLogOut, CgPassword, CgProfile } from 'react-icons/cg';
-import { BsThreeDotsVertical } from 'react-icons/bs';
+import { BsThreeDotsVertical } from 'react-icons/bs'
 import { usePathname } from 'next/navigation'
 import { RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri'
 
 
 const SIDEBAR_MENU = [
   {
-    key: 1,
+    key: 'dashboard',
     name: "Dashboard",
     url: "/",
     icon: <RiDashboardLine />,
