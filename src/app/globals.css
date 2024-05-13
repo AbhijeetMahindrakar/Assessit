@@ -1,4 +1,7 @@
-.row{
-    max-width: 100%;
+.pointer {
+    cursor: pointer;
 }
 
+.children{
+    margin-top: 70px;
+}

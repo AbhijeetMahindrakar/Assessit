@@ -1,0 +1,176 @@
+.MyAssessmentcontainerDetail {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Detailheader {
+  width: Hug (230px);
+  height: Hug (15px);
+  top: 92px;
+  left: 82px;
+  gap: 8px;
+  /*font-family: Inter;*/
+}
+.Dtitle1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  grid-gap: inherit;
+  cursor: pointer;
+}
+.DtlgreaterSyb {
+  margin: -2%;
+}
+.DetailsOptions {
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #595959;
+  cursor: pointer;
+}
+.Detailbox {
+  color: #3340b1;
+  width: 116px;
+  height: 41px;
+  padding: 12px, 15px, 12px, 15px;
+  border: 0px, 0px, 0px, 2px;
+  gap: 10px;
+  border-left: 2px solid #3340b1;
+}
+.Detailboxtext {
+  margin: 11px;
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Detailsdata {
+  height: 780px;
+  width: 100%;
+}
+.btnnewDraftarrow {
+  width: 37.71px;
+  height: 28.63px;
+  border-radius: 3px;
+  padding: 7px, 8px, 7px, 8px;
+  gap: 10px;
+  background-color: rgba(51, 64, 177, 1);
+  border: none;
+}
+.iconArrorw {
+  width: 22.712036px;
+  height: 22.628684px;
+  color: rgba(255, 255, 255, 1);
+}
+.btnedit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 8px;
+  position: absolute;
+  width: 79px;
+  height: 33px;
+  right: 48px;
+  color: #3340b1;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e2e2e2;
+  /*font-family: Inter;*/
+  font-size: 14px;
+}
+.gapfirst {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.AllQstTitle {
+  position: relative;
+}
+.fomgroupcreate {
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.fomgroupcreate ::placeholder {
+  color: rgba(191, 191, 191, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+.formcontrolname {
+  display: flex;
+  margin-right: 11%;
+  width: 100%;
+  height: 42px;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+.Uploadimg {
+  margin-top: -4%;
+}
+
+@media (max-width: 576px) {
+  .Uploadimg {
+    margin-top: 0%;
+  }
+  .title {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .Uploadimg {
+    margin-top: 0%;
+  }
+  .title {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Detailsdata {
+    width: 75%;
+    height: 550px;
+  }
+  .Uploadimg {
+    margin-top: -35%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Detailsdata {
+    width: 75%;
+    height: 550px;
+  }
+  .Uploadimg {
+    margin-top: -26%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .Detailsdata {
+    width: 75%;
+    height: 550px;
+  }
+  .Uploadimg {
+    margin-top: -19%;
+  }
+}
+@media (min-width: 1400px) {
+  .Detailsdata {
+    width: 75%;
+    height: 550px;
+  }
+}

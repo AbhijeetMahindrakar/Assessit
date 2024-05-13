@@ -1,0 +1,54 @@
+.total_card {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+  }
+
+.group_title {
+    /* color: rgba(0, 0, 0, 1); */
+    /* font-Size: 18; */
+    /*font-family: Inter;*/
+    font-Weight: 500;
+    /* margin-top: 25px; */
+    /* margin-left: 25px; */
+}
+
+.new_group_button {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(51, 64, 177, 1);
+    gap: 1rem;
+  }
+
+
+  .group_table {
+    margin-top: 1rem;
+    
+    margin-bottom: 10px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+  
+  .group_table th,
+  .group_table td {
+    
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .group_table th {
+    background-color: rgba(242, 247, 252, 1);
+    color: rgba(17, 15, 120, 1);
+  }
+  
+  .group_table tr {
+    background-color: rgba(250, 250, 250, 1);
+    line-height: 16.94px;
+    width: 1119px;
+    height: 44px;
+  }
+
+  .add {
+    background: #3340B1;
+  }
+  

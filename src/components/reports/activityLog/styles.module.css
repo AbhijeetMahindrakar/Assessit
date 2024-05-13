@@ -1,0 +1,107 @@
+.total_card{
+    min-width: fit-content;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+  }
+
+
+  .reports_tab{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(55, 55, 55, 1); 
+  }
+
+  .greater_than_symbol {
+    font-weight: bold;
+    
+  }
+
+  .activity_log_tab{
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .dropdowns_tab{
+    gap: 4px;
+    display: flex;
+   
+  }
+
+  
+.datepicker_container{
+    border: solid 1px rgba(226, 226, 226, 1);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
+  }
+
+  .datepicker_custom {
+    background-color:rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+  }
+
+  .activity_log_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+    
+  .activity_log_table th,
+  .activity_log_table td {
+    font-size: 14px;
+    padding-left: 15px !important;
+  }
+  
+  .activity_log_table tr{
+    background-color: rgba(250, 250, 250, 1);
+  }
+  
+  .activity_log_table th{
+    background-color: rgba(242, 247, 252, 1);
+    color: rgba(17, 15, 120, 1);
+  }
+  
+  .activity_log_table tr{
+    line-height: 16.94px;
+    
+    height: 44px;
+  }
+
+  .row{
+    background-color: white;
+    margin-bottom: 2px;
+  }
+
+
+  
+/* Custom CSS */
+.fixed-div {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; /* Add background color as needed */
+  z-index: 1; /* Ensure it's above the table */
+}
+
+.scrollable-table-container {
+  max-height: 500px; /* Adjust the max height as needed */
+  /* overflow-y: auto; */
+}
+
+@media (max-width: 767px) {
+  /* Adjust the styling for smaller screens */
+  .fixed-div {
+    position: static; /* Remove sticky positioning */
+    background-color: transparent; /* Make background transparent */
+    z-index: auto; /* Reset z-index */
+    padding: 10px; /* Add padding if needed */
+  }
+  
+  .scrollable-table-container {
+    max-height: none; /* Remove max-height for full height on smaller screens */
+    overflow-y: auto;
+  }
+}
+
+

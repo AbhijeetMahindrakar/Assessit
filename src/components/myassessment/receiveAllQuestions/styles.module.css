@@ -1,0 +1,71 @@
+.AllQstTitle {
+  position: relative;
+}
+.AllQuestionBorder {
+  margin-top: 4px;
+  border: 1px solid rgba(226, 226, 226, 1);
+  margin-top: 4px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.questionscoreone {
+  font-size: 20px;
+  /*font-family: Inter;*/
+  font-weight: 500;
+  line-height: 24.2px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.questionscoreone {
+  cursor: pointer;
+}
+.scoreContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.AllScore {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  /*font-family: Inter;*/
+  font-weight: 400;
+  line-height: 16.94px;
+  color: rgba(0, 0, 0, 1);
+}
+.dots {
+  margin-left: 20px;
+}
+.boldLabel {
+  font-weight: 500;
+  /*font-family: Inter;*/
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 16.94px;
+}
+
+.StateChoice {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+.customCheckbox {
+  margin-right: 2%;
+}
+.customCheckbox {
+  margin-right: 1px;
+  padding: 0;
+}
+.labelCustom {
+  padding: 0;
+  margin-left: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  /*font-family: Inter;*/
+  line-height: 16.94px;
+  color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,707 @@
+.title {
+  width: 186px;
+  height: 22px;
+   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20.78px;
+  color: #000000;
+}
+
+.assessment_title {
+  width: 105px;
+  height: 15px;
+   
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #373737;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  cursor: pointer;
+}
+.assessment_title:hover {
+  color: #436284;
+}
+.greaterThanSymbol {
+  font-weight: bold;
+}
+
+.static_title {
+  width: 80px;
+  height: 15px;
+   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cointenerstg {
+  margin: 0;
+  /*font-family: Inter;*/
+}
+.numbercreate {
+  margin-right: 11px;
+  margin-top: 2%;
+}
+.textcreatebasic {
+  font-size: 94%;
+}
+.scrollableRow {
+  overflow-y: scroll;
+  max-height: 500px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.MessageboxAdd {
+  font-size: 450%;
+}
+.AddQuestionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  /*font-family: Inter;*/
+  color: rgba(0, 0, 0, 1);
+  line-height: 19.36px;
+}
+.headingQuestion {
+  margin-top: 3%;
+  font-size: 14px;
+  font-weight: 500;
+  /*font-family: Inter;*/
+  color: rgba(0, 0, 0, 1);
+  line-height: 16.94px;
+}
+.fomgrpquestion {
+  font-size: 14px;
+  font-weight: 500;
+  /*font-family: Inter;*/
+  color: rgba(121, 121, 121, 1);
+  line-height: 16.94px;
+}
+.formcontrolquestion {
+  display: block;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 30px 44px 60px 14px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  height: 84px;
+}
+.fomgrpquestionone {
+  font-size: 14px;
+  font-weight: 500;
+  /*font-family: Inter;*/
+  color: rgba(121, 121, 121, 1);
+  line-height: 16.94px;
+}
+.formcontrolquestionone {
+  display: block;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+.contentdropdown h6 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  /*font-family: Inter;*/
+}
+.contentdropdown:target {
+  display: block;
+}
+.DeleteOne {
+  cursor: pointer;
+  color: red;
+  display: flex;
+  margin-bottom: -8px;
+  position: relative;
+  z-index: 1;
+  left: 93%;
+  top: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff1f1;
+  align-items: center;
+  justify-content: center;
+}
+.DeleteOne:hover {
+  color: darkred;
+}
+.checkBox {
+  justify-content: flex-start;
+}
+.CheckOne {
+  margin-top: 2%;
+  width: 27px;
+  height: 20px;
+}
+.question-box {
+  width: 90%;
+  height: 73%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-top: -25px;
+}
+.Textelement {
+  width: 105.8%;
+  height: 90px;
+  margin-top: -3%;
+  margin-left: -3%;
+  border-color: #e2e2e2;
+  border-radius: 4px;
+}
+.groupIcons {
+  padding: 0 var(--su4) 0 var(--su8);
+  margin: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 14px;
+  grid-gap: 10px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid var(--bc-darker);
+}
+.Scoreone {
+  margin-top: 1%;
+  margin-left: 10%;
+}
+.formsropeone {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 20%;
+  height: 30px;
+}
+.Addoption {
+  margin-right: 0%;
+  margin-top: 4%;
+  font-size: 14px;
+  font-weight: 400;
+  /*font-family: Inter;*/
+  line-height: 16.94px;
+  color: rgba(69, 69, 69, 1);
+}
+.Addoptionbutton {
+  padding: 8px 4px;
+  margin-left: 6%;
+  background-color: #fff;
+  color: #020202;
+  border-radius: 4px;
+  width: 13%;
+  border: 1px solid #1d1de7;
+}
+.Addoptionbutton:hover {
+  background-color: #1d1de7;
+  color: #fff;
+}
+.iconoption {
+  margin-top: 0%;
+  margin-right: 5%;
+}
+.textualDropdown h6 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  /*font-family: Inter;*/
+}
+
+.CheckOne {
+  margin-top: 2%;
+  width: 27px;
+  height: 20px;
+}
+.Checktwo {
+  width: 27px;
+  height: 20px;
+  margin-top: 2%;
+}
+.question-boxarea {
+  width: 90%;
+  height: 93%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  margin-left: 10%;
+  margin-top: -25px;
+  border-color: #e2e2e2;
+}
+.Textelementarea {
+  width: 105.8%;
+  height: 100px;
+  margin-top: -3%;
+  margin-left: -3%;
+  border-color: #e2e2e2;
+}
+
+.question-boxareaone {
+  width: 90%;
+  height: 93%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  margin-left: 10%;
+  margin-top: -25px;
+  border-color: #e2e2e2;
+}
+.Textualbox {
+  position: relative;
+}
+.Textualbox ::placeholder {
+  color: rgba(191, 191, 191, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.ContainerAddQ {
+  margin-top: 25%;
+  width: 100%;
+  height: 60px;
+  top: 638px;
+  left: 1px;
+  border: 1px, 0px, 0px, 0px;
+  padding: 11px 0px 11px 25px;
+  border-top: 1px solid #e2e2e2;
+}
+.PreviousBtn {
+  padding: 7px 30px;
+  /* margin-left: 75%; */
+  background-color: #fff;
+  color: #020202;
+  border-radius: 4px;
+  /*font-family: Inter;*/
+  border: 2px solid #1d1de7;
+}
+.nextbuttonn {
+  padding: 9px 35px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  /*font-family: Inter;*/
+  border-radius: 4px;
+}
+.nextbuttonn:hover {
+  background-color: #154a82;
+}
+
+.nextbuttonn:focus {
+  outline: none;
+}
+
+.nextbuttonnone {
+  padding: 9px 35px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  /*font-family: Inter;*/
+  border-radius: 4px;
+}
+.nextbuttonnone:hover {
+  background-color: #154a82;
+}
+
+.nextbuttonnone:focus {
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .title {
+    display: none;
+  }
+  .cointenerstage {
+    margin-left: 4%;
+    z-index: 2;
+  }
+  .customImage {
+    width: fit-content;
+  }
+  .customDiv {
+    margin-top: 60px;
+    font-weight: 500;
+    margin-left: -66px;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-size: 75%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstageline {
+    margin-left: -12%;
+    margin-top: 4%;
+    z-index: 1;
+  }
+  .cointenerstageone {
+    margin-left: 1%;
+    margin-top: 0.1%;
+    z-index: 2;
+  }
+  .numbercreate {
+    margin-right: 11px;
+    margin-top: 2%;
+  }
+  .cointenerstagelineone {
+    margin-left: -12%;
+    margin-top: 4%;
+    z-index: 1;
+  }
+  .cointenerstagetwo {
+    margin-left: 1%;
+    margin-top: 0.1%;
+    z-index: 2;
+  }
+  .question-box {
+    padding: 6px 8px;
+    height: auto;
+  }
+  .Addoptionbutton {
+    padding: 8px 4px;
+    width: 110px;
+  }
+  .question-boxarea {
+    padding: 2.6%;
+  }
+  .groupIcons {
+    grid-gap: 10px;
+  }
+  .question-boxareaone {
+    padding: 2.6%;
+  }
+  .PreviousBtn {
+    padding: 7px 25px;
+    margin-left: 0%;
+  }
+  .nextbuttonn {
+    padding: 9px 16px;
+    margin-left: -18px;
+  }
+  .nextBtnnone {
+    margin-right: -15px;
+  }
+  .nextbuttonnone {
+    padding: 9px 11spx;
+    margin-top: 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .title {
+    display: none;
+  }
+  .cointenerstage {
+    margin-left: 6%;
+    z-index: 2;
+  }
+  .customImage {
+    width: fit-content;
+  }
+  .customDiv {
+    margin-top: 60px;
+    font-weight: 500;
+    margin-left: -66px;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-size: 75%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstageline {
+    margin-left: -13%;
+    margin-top: 4%;
+    position: relative;
+    z-index: 1;
+  }
+  .cointenerstageone {
+    margin-left: 1%;
+    margin-top: 0%;
+    z-index: 2;
+  }
+  .cointenerstagelineone {
+    margin-left: -13%;
+    margin-top: 4%;
+    position: relative;
+    z-index: 1;
+  }
+  .cointenerstagetwo {
+    margin-left: 1%;
+    margin-top: 0%;
+    z-index: 2;
+  }
+  .DeleteOne {
+    left: 97%;
+  }
+  .question-box {
+    padding: 14px;
+    height: auto;
+  }
+  .Addoptionbutton {
+    padding: 8px 4px;
+    width: 150px;
+  }
+  .question-boxarea {
+    padding: 14px;
+  }
+  .groupIcons {
+    grid-gap: 6px;
+  }
+
+  .question-boxareaone {
+    padding: 14px;
+  }
+  .PreviousBtn {
+    padding: 7px 41px;
+    margin-left: 0%;
+  }
+  .nextBtnn {
+    margin-left: 15%;
+  }
+  .nextbuttonn {
+    padding: 9px 20px;
+    margin-left: -15px;
+  }
+  .nextBtnnone {
+    margin-left: 10%;
+  }
+  .nextbuttonnone {
+    padding: 9px 8px;
+    margin-left: -14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cointenerstage {
+    margin-left: 10%;
+  }
+  .customImage {
+    width: fit-content;
+  }
+  .customDiv {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-size: 68%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstageline {
+    margin-left: 23%;
+    margin-top: -39%;
+  }
+  .cointenerstageone {
+    margin-left: 10%;
+    margin-top: -41%;
+  }
+  .cointenerstagelineone {
+    margin-left: 23%;
+    margin-top: -39%;
+  }
+  .cointenerstagetwo {
+    margin-left: 10%;
+    margin-top: -41%;
+  }
+  .DeleteOne {
+    left: 91%;
+    overflow-x: scroll;
+    overflow: hidden;
+  }
+  .question-box {
+    padding: 4px;
+    margin-left: 14%;
+  }
+  .Addoptionbutton {
+    padding: 8px 4px;
+    width: 110px;
+  }
+  .question-boxarea {
+    padding: 4px;
+    margin-left: 14%;
+  }
+  .groupIcons {
+    grid-gap: 4px;
+  }
+  .question-boxareaone {
+    padding: 4px;
+    margin-left: 14%;
+  }
+  .PreviousBtn {
+    padding: 7px 14px;
+    margin-left: -30%;
+  }
+  .nextbuttonn {
+    padding: 10px 20px;
+    margin-left: -3px;
+  }
+  .nextbuttonn {
+    padding: 9px 12px;
+    margin-left: -20px;
+    margin-right: -7px;
+  }
+
+  .nextbuttonnone {
+    padding: 9px 3px;
+    margin-left: -8%;
+    margin-right: -30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cointenerstage {
+    margin-left: 0%;
+  }
+  .customImage {
+    width: fit-content;
+  }
+  .customDiv {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-size: 75%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstageline {
+    margin-left: 10%;
+    margin-top: -30%;
+  }
+  .cointenerstageone {
+    margin-left: 0%;
+    margin-top: -30%;
+  }
+  .cointenerstagelineone {
+    margin-left: 10%;
+    margin-top: -30%;
+  }
+  .cointenerstagetwo {
+    margin-left: 0%;
+    margin-top: -30%;
+  }
+  .question-box {
+    padding: 6px;
+  }
+  .Addoptionbutton {
+    padding: 8px 4px;
+    width: 110px;
+  }
+  .question-boxarea {
+    padding: 6px;
+  }
+  .question-boxareaone {
+    padding: 6px;
+  }
+  .PreviousButton {
+    margin-right: 90%;
+  }
+  .nextBtnn {
+    margin-left: 13%;
+  }
+  .nextbuttonn {
+    padding: 10px 17px;
+    margin-left: -3px;
+  }
+  .nextBtnnone {
+    margin-left: -2%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .cointenerstage {
+    margin-left: 0%;
+  }
+  .customDiv {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-size: 75%;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstageline {
+    margin-left: 10%;
+    margin-top: -30%;
+  }
+  .cointenerstageone {
+    margin-left: 0%;
+    margin-top: -30%;
+  }
+  .cointenerstagelineone {
+    margin-left: 10%;
+    margin-top: -30%;
+  }
+  .cointenerstagetwo {
+    margin-left: 0%;
+    margin-top: -30%;
+  }
+  .Addoptionbutton {
+    padding: 8px 4px;
+    width: 110px;
+  }
+}
+@media (min-width: 1400px) {
+  .customDiv {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .textcreatebasic {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 19.36px;
+  }
+  .cointenerstage {
+    margin-left: 15%;
+  }
+  .cointenerstageone {
+    margin-left: 15%;
+    margin-top: -25%;
+  }
+  .cointenerstagelineone {
+    margin-left: 23%;
+    margin-top: -25%;
+  }
+  .cointenerstagetwo {
+    margin-left: 15%;
+    margin-top: -25%;
+  }
+  .question-box {
+    padding: 10px;
+  }
+  .Textelement {
+    width: 106%;
+  }
+  .question-boxarea {
+    padding: 9px;
+  }
+  .question-boxareaone {
+    padding: 9px;
+  }
+  .PreviousButton {
+    margin-right: 58%;
+  }
+  .nextBtnnone {
+    margin-left: 0%;
+  }
+}

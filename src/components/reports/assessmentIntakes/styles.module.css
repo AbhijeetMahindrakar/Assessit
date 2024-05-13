@@ -1,0 +1,94 @@
+.total_card{
+    min-width: fit-content;
+    background-color: rgba(255, 255, 255, 1);
+    padding:1.5rem;
+  }
+
+
+
+  .reports_tab{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(55, 55, 55, 1);
+  }
+
+  /* .greaterThanSymbol {
+    font-weight: bold;
+  } */
+
+  .assessment_intake_tab{
+    font-weight: 500px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  
+.dropdowns_tab{
+    gap: 4px;
+    display: flex;
+   
+  }
+
+  .datepicker_container{
+    border-radius: 0.5rem;
+  }
+
+   
+  .date_input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+
+  .assessment_intake_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+    
+  .assessment_intake_table th,
+  .assessment_intake_table td {
+    /*font-family: Inter;*/
+    font-size: 14px;
+    padding-left: 15px !important;
+  }
+  
+  .assessment_intake_table tr{
+    background-color: rgba(250, 250, 250, 1);
+  }
+  
+  .assessment_intake_table th{
+    background-color: rgba(242, 247, 252, 1);
+    color: rgba(17, 15, 120, 1);
+  }
+  
+  .assessment_intake_table tr{
+    line-height: 16.94px;
+    width: 1119px;
+    height: 44px;
+  }
+    
+  .row{
+    background-color: white;
+    margin-bottom: 2px;
+  }
+
+  .odd_row, .even_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 54px;
+    height: 25px;
+    left: 669px;
+    top: calc(50% - 25px/2 + 0.5px);
+    background-color: #FFE2E5 !important;
+    border-radius: 4px;
+  }
+  
+  .even_row {
+    background: #A0DCA6 !important;
+  }

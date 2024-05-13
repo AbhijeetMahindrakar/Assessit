@@ -1,0 +1,1229 @@
+.dropdowns {
+  border: soild 1px rgba(226, 226, 226, 1);
+  gap: 4px;
+  display: flex;
+  /*font-family: Inter;*/
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TotalAssessment,
+.Draft,
+.Published,
+.Intake {
+  width: 178px;
+  height: 163px;
+  margin-left: 15.07px;
+  margin-top: 0px;
+  border-radius: 16px;
+}
+
+.TotalAssessment {
+  background: #FFE2E5;
+}
+
+.Draft {
+  background: #FFF4DE;
+}
+
+.Published {
+  background: #DCFCE7;
+}
+
+.Intake {
+  background: #F3E8FF;
+}
+
+.title {
+  margin-bottom: 2%;
+}
+
+.heading {
+  /* font-family: Poppins; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 15.07px;
+  width: 133px;
+  height: 24px;
+  margin-left: 15.07px;
+  margin-top: -38px;
+}
+
+.heading5 {
+  /* font-family: Poppins; */
+  margin-left: 15.07px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  margin-left: 15.07px;
+  margin-top: 77px;
+  color: #151D48;
+  font-style: normal;
+}
+
+.information {
+  width: fit-content;
+  border-spacing: 8px;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.information th,
+.information td {
+  justify-content: center;
+  /*font-family: Inter;*/
+  border: 1px;
+  padding: 8px;
+  text-align: left;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.information th {
+  background-color: #F2F7FC;
+}
+
+.info {
+  width: 754px;
+  height: 45px;
+  background: #F2F7FC;
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.head,
+.Data {
+  /*font-family: Inter;*/
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.head {
+  color: #110F78;
+  font-weight: 500;
+}
+
+.Data {
+  font-weight: 400;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.oddRow,
+.evenRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  gap: 10px;
+  width: 54px;
+  height: 25px;
+  left: 669px;
+  top: calc(50% - 25px/2 + 0.5px);
+  border-radius: 4px;
+}
+
+.oddRow {
+  background-color: #FFE2E5;
+}
+
+.evenRow {
+  background: #A0DCA6;
+}
+
+.container {
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.viewAllButton {
+  position: absolute;
+  right: 10px;
+  border: none;
+  color: #3340B1;
+  /* font: Inter; */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.chartContainer {
+  width: 792px;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.publishedAssessments,
+.Assessments,
+.DraftAssessments,
+.intakeAssessments {
+  height: 24px;
+  margin-left: 24px;
+  margin-top: 30px;
+}
+
+.candidateName {
+  margin-top: 3px;
+  display: flex;
+  margin-left: 36px;
+  /*font-family: Inter;*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 164px;
+  height: 17px;
+  color: #000000;
+}
+
+.score {
+  /*font-family: Inter;*/
+  margin-top: 0%;
+  display: flex;
+  margin-left: 0%;
+  border-radius: 8px;
+}
+
+.topscoreheading {
+  /*font-family: Inter;*/
+  height: 19px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.totalrowTopscores {
+  line-height: 32px;
+}
+
+.topscoresDetails {
+  height: 256px;
+  width: 336px;
+}
+
+.recentActivitiesDetails {
+  width: 336px;
+  height: 487px;
+  left: 1079px;
+  top: 352px;
+  border-radius: 4px;
+}
+
+.graph {
+  height: 200px;
+  width: 706.49px;
+  /*font-family: Inter;*/
+}
+
+.dropdownlist {
+  width: 185px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #E2E2E2;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  margin-left: 328px;
+  margin-top: 9px;
+}
+
+#myChart {
+  width: 706.49px;
+  height: 200px;
+}
+
+.notification {
+  display: flex;
+}
+
+/* .activities {
+} */
+
+.timestamp {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 24px;
+}
+
+.description {
+  position: absolute;
+  width: 258px;
+  height: 20px;
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'ss01' on, 'cv01' on, 'cv11' on;
+  color: #1C1C1C;
+  display: flex;
+  margin-top: 4px;
+  margin-left: 36px;
+}
+
+/* Default styles for all screen sizes */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col {
+  padding: 0 15px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.Dashboardcontainer {
+  padding-top: 5%;
+  margin-top: -3%;
+}
+
+/* Styles for small screens */
+@media (min-width: 320px) {
+  .dropdowns {
+    font-size: 10px;
+  }
+
+  .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 11px;
+    margin-top: -3px;
+    margin-left: 3px;
+  }
+
+  .timestamp {
+    font-size: 11px;
+    margin-top: 13px;
+  }
+
+  .notification {
+    margin-left: -15px;
+  }
+
+  .subheading {
+    font-size: 16px;
+    margin-left: -12px;
+    margin-top: -26px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .description {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: -2px;
+  }
+
+  .timestamp {
+    margin-left: 38px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .topscoreheading {
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 16px;
+  }
+
+  .information {
+    margin-left: -6px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .score {
+    margin-left: 50px;
+    width: 50px;
+    justify-content: center;
+    height: 24px;
+    line-height: 19px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -5.93px;
+    width: 130px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 350px) {
+  .dropdowns {
+    font-size: 10px;
+  }
+
+  .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 11px;
+    margin-top: -3px;
+    margin-left: 3px;
+  }
+
+  .timestamp {
+    font-size: 11px;
+    margin-top: 13px;
+  }
+
+  .notification {
+    margin-left: -15px;
+  }
+
+  .subheading {
+    font-size: 16px;
+    margin-left: -12px;
+    margin-top: -26px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .description {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: -2px;
+  }
+
+  .timestamp {
+    margin-left: 38px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .topscoreheading {
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 16px;
+  }
+
+  .information {
+    margin-left: -6px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .score {
+    margin-left: 72px;
+    width: 50px;
+    justify-content: center;
+    height: 24px;
+    line-height: 19px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -5.93px;
+    width: 145px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 365px) {
+  .dropdowns {
+    font-size: 10px;
+  }
+
+  .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 11px;
+    margin-top: -3px;
+    margin-left: 3px;
+  }
+
+  .timestamp {
+    font-size: 11px;
+    margin-top: 13px;
+  }
+
+  .notification {
+    margin-left: -15px;
+  }
+
+  .subheading {
+    font-size: 16px;
+    margin-left: -12px;
+    margin-top: -26px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .description {
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: -2px;
+  }
+
+  .timestamp {
+    margin-left: 38px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .topscoreheading {
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 16px;
+  }
+
+  .information {
+    margin-left: -6px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .score {
+    margin-left: 72px;
+    width: 50px;
+    justify-content: center;
+    height: 24px;
+    line-height: 19px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -8.93px;
+    width: 157px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .score {
+    margin-left: 90px;
+    width: 50px;
+    justify-content: center;
+    height: 24px;
+    line-height: 19px;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .description {
+    font-size: 11px;
+    margin-top: -3px;
+    margin-left: 3px;
+  }
+
+  .timestamp {
+    font-size: 11px;
+    margin-top: 13px;
+  }
+
+  .notification {
+    margin-left: -15px;
+  }
+
+  .subheading {
+    margin-left: -12px;
+    margin-top: -26px;
+    /*font-family: Inter;*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .candidateName {
+    justify-content: center;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .description {
+    margin-left: 28px;
+    font-size: 14px;
+    margin-top: -2px;
+  }
+
+  .timestamp {
+    margin-left: 53px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .information {
+    margin-left: -6px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .Dashboard1container {
+    margin-top: 20%;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -5.5px;
+    width: 128px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+
+}
+
+/* Styles for medium screens */
+
+@media (min-width:768px) {
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+
+  .dropdowns {
+    font-size: 10px;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .description {
+    margin-left: 2px;
+    line-height: 12px;
+    font-size: 11px;
+  }
+
+  .timestamp {
+    line-height: 23px;
+    font-size: 10px;
+    margin-left: 31px;
+    margin-top: 19px;
+  }
+
+  .notification {
+    margin-left: -15px;
+  }
+
+  .subheading {
+    height: 33px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-left: -21px;
+    margin-top: -23px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    margin-top: 9px;
+    width: 7px;
+    font-size: 11px;
+  }
+
+  .score {
+    justify-content: center;
+    margin-left: 18px;
+    height: 20px;
+    width: 38px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .topscoreheading {
+    margin-left: -2px;
+    margin-top: 2px;
+    font-size: 16px;
+  }
+
+  .account {
+    font-size: 11px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -6.5px;
+    width: 147px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:786px) {
+  .dropdowns {
+    font-size: 10px;
+  }
+
+  .description {
+    margin-left: 4px;
+    line-height: 14px;
+    font-size: 11px;
+  }
+
+  .timestamp {
+    line-height: 23px;
+    font-size: 12px;
+    margin-left: 31px;
+    margin-top: 19px;
+  }
+
+  .notification {
+    margin-left: -20px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -6.5px;
+    width: 147px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:834px) {
+  .dropdowns {
+    font-size: 12px;
+  }
+
+  .card {
+    height: fit-content;
+  }
+
+  .description {
+    margin-left: 4px;
+    line-height: 29px;
+    font-size: 10px;
+  }
+
+  .timestamp {
+    line-height: 23px;
+    font-size: 12px;
+    margin-left: 31px;
+    margin-top: 19px;
+  }
+
+  .notification {
+    margin-left: -20px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 10px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -6.5px;
+    width: 168px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+/* Styles for large screens */
+
+@media (min-width: 992px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .description {
+    font-size: 12px;
+    margin-top: -6px;
+  }
+
+  .timestamp {
+    font-size: 12px;
+    margin-top: 13px;
+  }
+
+  .topScoreTable {
+    font-size: 12px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    width: 60px;
+    font-size: 14px;
+  }
+
+  .score {
+    margin-left: 10px;
+    justify-content: center;
+    width: 50px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 12px;
+  }
+
+  .card {
+    height: fit-content;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: 10.5px;
+    width: 190px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    margin-left: 17px;
+    width: 165px;
+    font-size: 14px;
+  }
+
+  .score {
+    justify-content: center;
+    width: 50px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .description {
+    margin-left: 28px;
+    font-size: 14px;
+    margin-top: -6px;
+  }
+
+  .timestamp {
+    margin-left: 53px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 14px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -8.5px;
+    width: 146px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    margin-left: 17px;
+    width: 220px;
+    font-size: 14px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .score {
+    justify-content: center;
+    width: 50px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .topscoreheading {
+    font-size: 16px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .description {
+    margin-left: 28px;
+    font-size: 14px;
+    margin-top: -6px;
+  }
+
+  .timestamp {
+    margin-left: 53px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .container {
+    width: 685px;
+  }
+
+  .information {
+    margin-left: 0%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 14px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -8.5px;
+    width: 165px;
+  }
+}
+
+@media (min-width: 1434px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    margin-left: 17px;
+    width: 220px;
+    font-size: 14px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .score {
+    font-size: 14px;
+  }
+
+  .topscoreheading {
+    font-size: 16px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .description {
+    margin-left: 28px;
+    font-size: 14px;
+    margin-top: -6px;
+  }
+
+  .timestamp {
+    margin-left: 53px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .container {
+    width: 685px;
+  }
+
+  .information {
+    margin-left: -2%;
+    width: 105%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 14px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -8.5px;
+    width: 165px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .dropdowns {
+    font-size: 14px;
+  }
+
+  .candidateName {
+    justify-content: center;
+    margin-left: 17px;
+    width: 220px;
+    font-size: 14px;
+  }
+
+  .totalrowTopscores {
+    line-height: 43px;
+  }
+
+  .score {
+    font-size: 14px;
+  }
+
+  .topscoreheading {
+    font-size: 16px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .description {
+    margin-left: 28px;
+    font-size: 14px;
+    margin-top: -6px;
+  }
+
+  .timestamp {
+    margin-left: 53px;
+    font-size: 14px;
+    margin-top: 13px;
+  }
+
+  .container {
+    width: 685px;
+  }
+
+  .information {
+    margin-left: -2%;
+    width: 112%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  .information th,
+  .information td {
+    font-size: 14px;
+  }
+
+  .TotalAssessment,
+  .Published,
+  .Draft,
+  .Intake {
+    margin-left: -8.5px;
+    width: 165px;
+  }
+}

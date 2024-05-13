@@ -19,6 +19,9 @@ declare module 'next-auth' {
             name?: string
             email?: string
             image?: string
+            isAdmin?: boolean
+            isUser?: boolean
+            isSuperadmin?: boolean
         }
     }
 }
@@ -35,7 +38,10 @@ const authOptions = {
         async session({ session, token }: {session: Session, token: JWT}) {
             session.user.id = token!.id_token;
             session.user.access_token = token!.access_token;
-            session.user.roles = JSON.parse(Buffer.from(token.access_token!.split('.')[1], 'base64').toString()).realm_access.roles
+            let roles = JSON.parse(Buffer.from(token.access_token!.split('.')[1], 'base64').toString()).realm_access.roles
+            session.user.isAdmin = roles.includes(process.env.NEXT_PUBLIC_AUTH_ROLE_ADMIN)
+            session.user.isUser = roles.includes(process.env.NEXT_PUBLIC_AUTH_ROLE_USER)
+            session.user.isSuperadmin = roles.includes(process.env.NEXT_PUBLIC_AUTH_ROLE_SUPERADMIN)
             return session;
         },
         async jwt({ token, account }: {token: JWT, account: any}) {

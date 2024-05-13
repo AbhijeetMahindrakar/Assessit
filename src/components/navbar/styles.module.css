@@ -1,8 +1,15 @@
+
+.navbar_container{
+    position: fixed;
+    width: 76%; 
+    z-index: 999; 
+    background-color: white;
+}
 .search_bar {
     background-color: transparent;
     height: 36px;
     border: 1px solid #E2E2E2;
-    font-family: Inter;
+    /*font-family: Inter;*/
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -14,4 +21,25 @@
     background-color: transparent;
     outline: none;
 }
+
+@media(max-width:992px){
+    .navbar_container{
+        width: 102%;
+    }
+}
+@media(min-width:992px){
+    .navbar_container{
+        width: 76%;
+    }
+}
+
+@media(min-width:1400px){
+    .navbar_container{
+        width: 84%;
+        z-index: 999;
+    }
+}
+
+
+
 

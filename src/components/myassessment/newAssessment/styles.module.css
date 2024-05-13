@@ -1,0 +1,369 @@
+/* NewAssessment Css */
+.Newcontainer {
+  background-color: rgba(242, 245, 248, 1);
+}
+.headerDraft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textDraft {
+  /*font-family: Inter;*/
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: rgba(0, 0, 0, 1);
+}
+.NewDraftbtn {
+  margin-top: 0;
+}
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 1em;
+}
+
+.btnnew {
+  /* Buttons */
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+  /* padding: 5px 15px; */
+  gap: 12px;
+  position: absolute;
+  width: 97px;
+  height: 38px;
+  right: 30px;
+  /* top: 115px; */
+  background: #3340b1;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.smButton {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  gap: 12px;
+  width: 97px;
+  height: 39px;
+  background: rgba(51, 64, 177, 1);
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  /* margin-top: 88%; */
+}
+.gapfirst {
+  margin-left: 2px;
+  margin-top: 0px;
+}
+.customrowDraft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnnewDraftarrow {
+  width: 37.71px;
+  height: 28.63px;
+  border-radius: 3px;
+  padding: 7px, 8px, 7px, 8px;
+  gap: 10px;
+  background-color: rgba(51, 64, 177, 1);
+  border: none;
+}
+.iconArrorw {
+  width: 22.712036px;
+  height: 22.628684px;
+  color: rgba(255, 255, 255, 1);
+}
+.Drafttext {
+  /*font-family: Inter;*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: rgba(0, 0, 0, 1);
+}
+.boxContainer strong {
+  color: rgba(51, 64, 177, 1);
+}
+.boxContainer spam {
+  color: rgb(9, 9, 9);
+}
+
+.boxContainer {
+  margin-top: 0;
+}
+.box {
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  /* border-left-color: green; */
+  border-radius: 6px;
+}
+.Status label {
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: rgba(137, 137, 137, 1);
+}
+
+.Status span {
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: rgba(94, 94, 94, 1);
+  margin-left: 8px;
+}
+
+.StatusTitle {
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: rgba(94, 94, 94, 1);
+}
+.questionscoreone {
+  font-size: 20px;
+  /*font-family: Inter;*/
+  font-weight: 500;
+  line-height: 24.2px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.questionscoreone a{
+  text-decoration: none;
+}
+.questionscoreone {
+  cursor: pointer;
+}
+.Para {
+   
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.2px;
+  color: rgba(107, 107, 107, 1);
+}
+
+.btnnewDraftPlus {
+  width: 39px;
+  height: 34px;
+  border-radius: 4px;
+  padding: 5px, 15px, 5px, 15px;
+  background-color: rgba(51, 64, 177, 1);
+  border: none;
+}
+.iconDraft {
+  width: 15px;
+  height: 15px;
+  top: 2.5px;
+  left: 2.5px;
+  color: rgba(255, 255, 255, 1);
+}
+.filecreate {
+  margin-left: 6%;
+}
+.firstBox {
+  border-left-color: green;
+}
+.secondBox {
+  border-left-color: grey;
+  margin-left: 20px;
+}
+
+.customImageassessment {
+  width: 55%;
+  margin-left: 11%;
+  margin-top: 8em;
+  margin-bottom: 15em;
+}
+
+.popup {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  padding: 10px;
+  /*font-family: Inter;*/
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  position: relative;
+  z-index: 1;
+  margin-top: -40%;
+  margin-left: 84%;
+  width: 126px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popupList {
+  width: 105px;
+  height: 70px;
+  top: 1546px;
+  left: -1831px;
+  border-radius: 4px;
+  padding: 8px, 0px, 8px, 0px;
+  gap: 10px;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.popupList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.popupList li::after {
+  content: "";
+  position: absolute;
+  width: 171%;
+  height: 1px;
+  background-color: rgba(226, 226, 226, 1);
+  bottom: -5px;
+  left: -43px;
+}
+
+.popupList li:last-child::after {
+  display: none;
+}
+
+.popupList li button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popupList li button svg {
+  margin-right: 5px;
+}
+
+.popupList li button:hover {
+  text-decoration: solid;
+}
+.threeboxbtn {
+  margin-left: -20px;
+  margin-top: 4px;
+}
+
+@media (max-width: 576px) {
+  .popup {
+    margin-top: -45%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  .NewDraftbtn {
+    margin-top: -30px;
+    /*font-family: Inter;*/
+  }
+  .filecreateDrft {
+    position: absolute;
+    left: 6%;
+    right: 6%;
+  }
+
+  .boxContainer {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .popup {
+    margin-top: -28%;
+    margin-left: 75%;
+    position: absolute;
+  }
+  .NewDraftbtn {
+    margin-top: -30px;
+  }
+  .filecreateDrft {
+    position: absolute;
+    left: 2%;
+    right: 4%;
+  }
+  .boxContainer {
+    margin-top: 0px;
+    margin-left: 0px;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .popup {
+    margin-top: -111%;
+  }
+
+  .boxContainer {
+    margin-top: 20px;
+    margin-left: 7px;
+  }
+  .firstBox {
+    width: 242px;
+  }
+  .secondBox {
+    width: 242px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .popup {
+    margin-top: -65%;
+  }
+  .boxContainer {
+    margin-top: 25px;
+    margin-left: 8px;
+  }
+  .firstBox {
+    width: 350px;
+  }
+  .secondBox {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .popup {
+    margin-top: -50%;
+  }
+  .boxContainer {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .firstBox {
+    width: 299px;
+  }
+  .secondBox {
+    width: 299px;
+  }
+}
+@media (min-width: 1400px) {
+  .boxContainer {
+    margin-top: 40px;
+    margin-left: 6px;
+  }
+  .firstBox {
+    width: 299px;
+  }
+  .secondBox {
+    width: 299px;
+  }
+}
+.newbutton{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

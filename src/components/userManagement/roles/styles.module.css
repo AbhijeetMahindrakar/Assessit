@@ -1,0 +1,97 @@
+.total_card {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.5rem;
+}
+
+.Roles_title {
+  font-weight: 500;
+}
+
+.add_member {
+  /* width: 640px; */
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #ffffff;
+  border-radius: 10px;
+  
+}
+
+.add_role_title {
+  background: #DDE8FF;
+}
+
+.popup_box {
+  grid-gap: 12px;
+}
+
+
+.form_cancel {
+  width: 120px;
+  height: 38px;
+  margin-right: 10px;
+  padding: 5px 15px 5px 32px;
+  border-radius: 4px;
+  border-color: rgba(51, 64, 177, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(69, 69, 69, 1);
+}
+
+.form_create {
+  width: 120px;
+  height: 38px;
+  padding: 5px 15px 5px 33px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(51, 64, 177, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.roles_table {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.roles_table th,
+.roles_table td {
+  
+  font-size: 14px;
+  padding: 8px;
+}
+
+.roles_table th {
+  background-color: rgba(242, 247, 252, 1);
+  color: rgba(17, 15, 120, 1);
+}
+
+.roles_table tr {
+  background-color: rgba(250, 250, 250, 1);
+  line-height: 16.94px;
+  width: 1119px;
+  height: 44px;
+}
+
+.row {
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+.Newrolebtn {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(51, 64, 177, 1);
+  gap: 1rem;
+}
