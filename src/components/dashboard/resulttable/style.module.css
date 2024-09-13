@@ -2,7 +2,7 @@
     border: soild 1px rgba(226, 226, 226, 1);
     gap: 4px;
     display: flex;
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
   }
   
   .topBar {
@@ -78,7 +78,7 @@
   .information th,
   .information td {
     justify-content: center;
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
     border: 1px;
     padding: 8px;
     text-align: left;
@@ -106,7 +106,7 @@
   
   .head,
   .Data {
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
     font-style: normal;
     font-size: 14px;
     line-height: 17px;
@@ -179,7 +179,7 @@
     margin-top: 3px;
     display: flex;
     margin-left: 36px;
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -190,7 +190,7 @@
   }
   
   .score {
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
     margin-top: 0%;
     display: flex;
     margin-left: 0%;
@@ -198,7 +198,7 @@
   }
   
   .topscoreheading {
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
     height: 19px;
     font-style: normal;
     font-weight: 500;
@@ -227,7 +227,7 @@
   .graph {
     height: 200px;
     width: 706.49px;
-    /*font-family: Inter;*/
+    /* font-family: Inter; */
   }
   
   .dropdownlist {
@@ -255,6 +255,7 @@
   }
   
   /* .activities {
+     font-family: Inter; 
   } */
   
   .timestamp {
@@ -625,7 +626,7 @@
     .subheading {
       margin-left: -12px;
       margin-top: -26px;
-      /*font-family: Inter;*/
+      /* font-family: Inter; */
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
